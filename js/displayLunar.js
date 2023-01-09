@@ -14,9 +14,9 @@ function displayLunar() {
     } else if (month === 1 && day === 13) {
         document.getElementById("displayLunar").innerHTML = "农历腊月廿二";
     } else if (month === 1 && day === 14) {
-        document.getElementById("displayLunar").innerHTML = "农历腊月廿三";
+        document.getElementById("displayLunar").innerHTML = "农历腊月廿三 北小年";
     } else if (month === 1 && day === 15) {
-        document.getElementById("displayLunar").innerHTML = "农历腊月廿四";
+        document.getElementById("displayLunar").innerHTML = "农历腊月廿四 南小年";
     }else if (month === 1 && day === 16) {
         document.getElementById("displayLunar").innerHTML = "农历腊月廿五";
     }else if (month === 1 && day === 17) {
@@ -26,11 +26,11 @@ function displayLunar() {
     }else if (month === 1 && day === 19) {
         document.getElementById("displayLunar").innerHTML = "农历腊月廿八";
     }else if (month === 1 && day === 20) {
-        document.getElementById("displayLunar").innerHTML = "农历腊月廿九";
+        document.getElementById("displayLunar").innerHTML = "农历腊月廿九 大寒";
     }else if (month === 1 && day === 21) {
-        document.getElementById("displayLunar").innerHTML = "农历腊月三十";
+        document.getElementById("displayLunar").innerHTML = "农历腊月三十 除夕";
     }else if (month === 1 && day === 22) {
-        document.getElementById("displayLunar").innerHTML = "农历正月初一";
+        document.getElementById("displayLunar").innerHTML = "农历正月初一 春节";
     }else if (month === 1 && day === 23) {
         document.getElementById("displayLunar").innerHTML = "农历正月初二";
     }else if (month === 1 && day === 24) {
@@ -58,7 +58,7 @@ function displayLunar() {
     }else if (month === 2 && day === 4) {
         document.getElementById("displayLunar").innerHTML = "农历正月十四";
     }else if (month === 2 && day === 5) {
-        document.getElementById("displayLunar").innerHTML = "农历正月十五";
+        document.getElementById("displayLunar").innerHTML = "农历正月十五 元宵节";
     }
 
 }
